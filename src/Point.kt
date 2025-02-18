@@ -12,4 +12,5 @@ class Point(x:Double, y: Double) {
         var d=sqrt((x-other.x).pow(2)+ (y-other.y).pow(2))
         return d
     }
+
 }
